@@ -1,0 +1,147 @@
+<!--
+    Master Of Cyber Security
+    cos6004-Creating Web Applications
+    Ethan PP Cutting
+    100942775
+
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="styles/styles.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="description" content="Contact Page">
+    <meta name="keywords" content="Contact ">
+    <meta name="author" content="Ethan PP Cutting ">
+    <title>Apply</title>
+  </head>
+
+
+  <body class="feedback"> 
+    <div  class="topnav">
+      <img  id="img" src="images/logo-no-background.png" alt="logo-no-background.png">
+        <a class="index-html" href="index.html">Home</a>
+        <a href="jobs.html">Jobs</a>
+        <a href="apply.html">Apply</a>
+        <a href="Enhancements.html">Enhancements</a>
+        <a href="about.html">About</a>
+    </div>
+    
+    <!-- adding header 1 and styling it in the center -->
+    <div class="h1">
+      <h1>Apply for U.I.D</h1>
+    </div>
+    <hr>
+    <!-- adding div and p with some words in it -->
+    <div id="p">
+      <p>Welcome to U.I.D (user interface D) fill out registration.
+       After you have complete your registraction and upload your CVV click the submit button.<br> 
+       Please make sure you fill in all of the information same as what is on your CV(Resume). Thnak you for filling out the Applications can't wait to work with you.
+      </p>
+    </div>
+    <!-- Fieldset 1-->
+    <fieldset id="fielset-apply-1">
+      <!-- adding a legend -->
+      <legend id="contact-info">Contact Info</legend>
+      <div class="info-master">
+        <!-- adding a label and input so the user can put their frist name down -->
+        <label id="fnames">First Name:</label>
+          <input type="text" id="fname" name="firstname" placeholder="Enter your first name here" minlength="2" maxlength="20">
+          <br>
+        <!-- adding a label an input so the user can put their last name down -->
+        <label id="lnames">Last Name:</label>
+          <input type="text" id="lname" name="lastname" placeholder="Enter your last name here" pattern="[A-Za-z]{20}">
+          <br>
+        <!-- adding a label an input so the user can put their email down -->
+        <label id="emails">Email:</label>
+          <input type="text" id="email" name="email address" placeholder="100942775@student.swin.edu.au" maxlength="40">
+          <br>
+        <!-- addong a label an input so the user can put their phone number downn -->
+        <label id="Phonenumber">Phone No:</label>
+          <input type="text" id="phoneno" name="phone no" placeholder="Enter your phone number here" minlength="10" maxlength="10">
+          <br>
+        <!-- adding a label and input so the user can put their date of birth down -->
+        <label id="dateofbirth">Date Of Birth:</label>
+          <input type="text" id="dob" name="date of birth" placeholder="26/11/1998" minlength="8" maxlength="10">
+          <br>
+          <br>
+        <!-- adding a div and option to pick gender with radio no checkbox -->
+        <div id="gender-index">
+            <label class="gender">Gender:</label><br>
+            <input type="radio" name="gender" value="male"/>Male
+            <input type="radio" name="gender" value="female"/>Female
+            <input type="radio" name="gender" value="other"/>Other
+            <br>
+          </div>
+          <!-- addong a label and input so the user can put their street address down -->
+          <label id="street-address">Street Address:</label>
+            <input type="text" id="address" name="street address" placeholder="Enter your street address" maxlength="40" minlength="4">
+        </div>
+        <!-- adding postcode and putting them into a div together so i can float them next to each other -->
+        <div class="postcode-sub">
+            <label id="right">Postcode:</label>
+              <input type="text" name="postcode" id="postcode" pattern="^\d{4}$" required="required" placeholder="Enter your postcode">
+            <!-- adding a drop down option so the user can pick what state they are from-->
+            <label for="country">State:</label>
+              <select id="country" name="country">
+                <option value="Please Select...">Please Select...</option>
+                <option value="New South Wales">New South Wales</option>
+                <option value="Victoria">Victoria</option>
+                <option value="Western Australia">Western Australia</option>
+                <option value="South Australia">South Australia</option>
+                <option value="Tasmania">Tasmania</option>
+              </select>
+        </div>
+    </fieldset>
+    <br>
+    <!-- Fieldset 2-->
+    <fieldset id="fielset-apply-2">
+      <!-- adding legend saying upload resume -->
+      <legend id="upload-resume">Upload Resume</legend>
+      <div class="product-master">
+          <!-- adding a actiong_.php so the user can upload resume -->
+          <form action="/action_page.php">
+              <input type="file" id="myFile" name="filename">
+          </form>
+          </div>
+          <br>
+          <!--  adding a checbox for Skill's -->
+          <div id="div-skills">
+            <label class="skills">Skills:</label><br>
+              <input type="checkbox" name="html/css"/>HTML/CSS
+              <input type="checkbox" name="java"/>Java
+              <input type="checkbox" name="javascript"/>JavaScript
+              <input type="checkbox" name="python"/>Python
+              <input type="checkbox" name="c"/>C
+          </div>
+          <br>
+          <!-- making a drop down option so user can pick what job -->
+          <div id="state-master-jobs">
+            <label for="country2">Pick the Job You Want To Apply For:</label>
+              <select id="country2" name="country">
+                <option value="New South Wales">Please Select...</option>
+                <option value="New South Wales">Pen Testing</option>
+                <option value="Victoria">User Interface Design</option>
+              </select>
+          </div>
+
+          <br>
+          <!-- adding a comment box for other skills so user can add whatever skills i missed to put down-->
+          <form>
+            <label class="comment-boxs">Other Skills</label>
+            <textarea rows="4" cols="100" name="comment"  placeholder="Please enter other skills here..."></textarea>
+          </form>
+          <!-- adding a apply button so user can submit their resume -->
+          <div id="applybutton">
+              <input type="submit" value="Apply">
+          </div>
+     </fieldset>
+ 
+    <!-- adding a footer with my info -->
+    <footer>
+        <p class="Author">Created By Ethan PP Cutting - 100942775</p>
+    </footer>
+ </body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title>CWA help Desk Appointment</title>
+    </head>
+<body>
+    <p><a href="https://www.swinburne.edu.au/">
+    <img src="logo.png" alt="https://www.swinburne.edu.au/" width="100" height="100">
+    </a></p>
+
+    <h1>CWA Help Desk Appointment</h1>
+    <p>The Help Desk is located in ATC620. Open 10.30 to 19:00 Monday to Friday<br />Check Blackboard for when CWA tutors will be there.</p>
+    
+    <form>
+    <fieldset>
+        <!--adding box for student details-->
+        <legend>Student Details</legend>
+        <p><label>Student ID:</label>
+            <input type="text" name="catname" id="catname" maxlength="20" size="10" required="required"/>
+        </p>
+        </fieldset>
+        <!--adding box for your unit information-->
+        <fieldset>
+        <legend>Your Unit</legend>
+            <!-- using div and not p lets you put the input in front of the wording and if using <p> it will put the input
+                in front of the words -->
+            <div>
+                <input type="radio" id="cos10011" name="your unit" value="Cos10011"/> 
+                    <label for="cos10011">Cos10011</label>
+            
+                <input type="radio" id="cos60004" name="your unit" value="Cos60004"/>
+                    <label for="Cos60004">Cos60004</label>
+            
+                <input type="radio" id="cos60007" name="your unit" value="Cos60007"/>
+                    <label for="Cos60007">Cos60007</label>
+            </div>
+            <label for="TUTO">Your Tutor</label>
+            <select id="TUTO" name="TUTO">
+                <option value="sdfsd">Please Select</option>
+                <option value="sdfsd">Please Select</option>
+                <option value="sdfsd">Please Select</option>
+                <option value="sdfsd">Please Select</option>
+            </select>
+            </fieldset>
+            <fieldset>
+                <legend>Issue</legend>
+                <div>
+                    <input type="checkbox" name="check" id="GFG" value="1" Checked>
+                        <label for="checkbox">HTML</label>
+
+                    <input type="checkbox" name="check" id="GFG" value="1" Checked>
+                        <label for="checkbox">CSS</label>
+
+                    <input type="checkbox" name="check" id="GFG" value="1" Checked>
+                        <label for="checkbox">JAVASCRIPT</label>
+
+                    <input type="checkbox" name="check" id="GFG" value="1" Checked>
+                        <label for="checkbox">PHP</label>
+                    
+                        <input type="checkbox" name="check" id="GFG" value="1" Checked>
+                        <label for="checkbox">MySQL</label>
+                </div>
+               <p> <form>
+                <!-- <br> commands puts it on top of the textarea(box), if no <br> then it will be next to it bottom left-->
+                    <label for="comments">Description of Issue</label><br><br>
+                    <textarea id="comments" name="comments" placeholder="Write description of your problem here..."  rows="4" cols="40"></textarea>
+                </form>
+            </p>
+            </fieldset>
+            <!--fieldset give you a nice baorder around the info you want -->
+            <fieldset>
+                <legend>Preferred Date / Time</legend>
+                <p><label>Date</label>
+                    <input type="text" name="date" id="date" maxlength="20" size="10" required="required" placeholder="dd/mm/yyyy"/>
+                </p>
+                <p><label>Time</label:>
+                    <input type="text" name="time" id="time" maxlength="20" size="10" required="required" placeholder="00:00"/>
+                </p>
+        </fieldset>
+        <input type="Submit" value="Register">
+        <input type="Reset" value="Reset Form">
+    </form>
+    </body>
+</html>

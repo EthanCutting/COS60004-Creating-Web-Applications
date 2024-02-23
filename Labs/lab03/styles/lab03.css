@@ -1,0 +1,88 @@
+/*
+filename: 
+author: Ethan PP CUtting - s100942775
+created: 25/2/2023
+last modified: 25/2/2023
+description: [html files it refers to (if known)]
+*/
+h1{
+      color: purple; 
+      font-size: 2em; 
+      font-weight: bold;
+   }
+
+h2, h3{
+   font-style: italic;
+   color: rgb(76, 201, 201);
+   font-size: 2em; 
+   font-weight: bold;
+}  
+
+aside, footer{
+   font-style: italic;
+}
+
+table {
+   border: 1px solid black;
+   padding: 3px;
+}
+
+tr, th, tr, td, tfoot{
+   border: 1px solid black;
+   padding: 2px;
+}
+
+/* calling h2 to be center in the page */
+#images {
+   text-align: center;
+}
+
+#h3red {
+   color: red;
+}
+
+.special {
+   color: darkorange;
+   font-weight: bold;
+}
+
+.months{
+   float: right;
+}
+
+/* nav bar giving it some love */
+nav a {
+   text-decoration: none;
+   padding: 0.2em 0.6em;
+   border: 4px solid #ccc;
+}
+
+#nav a:hover{
+   background-color: lightblue;
+}
+
+/* ordered List */
+ol {
+   list-style: numbers;
+
+}
+
+/* unordered List */
+
+
+/* 12. Create a rule with a contextual selector that selects only unordered lists that are nested within an ordered 
+list, and use this to make the bullet points square.    */
+#ul-crilce{
+   list-style-type: circle;
+}
+
+
+aside:hover{
+   display: hidden;
+}
+
+#Paragraphs{
+   color: black;
+}
+
+

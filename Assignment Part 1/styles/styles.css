@@ -1,0 +1,864 @@
+/*
+    Master Of Cyber Security
+    cos6004-Creating Web Applications
+    Ethan PP Cutting
+    100942775
+*/
+/*---------------------------
+-----------------------------
+-----------------------------*/
+
+
+/* Enhancements */
+.h2-enh, .h2-enh-2, .h2-enh-1 {
+  color: #fff;
+  text-shadow:
+      0 0 7px rgb(23, 111, 242),
+      0 0 10px rgb(23, 111, 242),
+      0 0 21px rgb(23, 111, 242),
+      0 0 42px rgb(23, 111, 242),
+      0 0 82px rgb(23, 111, 242),
+      0 0 92px rgb(23, 111, 242),
+      0 0 102px rgb(23, 111, 242),
+      0 0 151px rgb(23, 111, 242);
+}
+
+/* Additional styling */
+  
+body {
+  font-size: 18px;
+  font-family: "Vibur", sans-serif;
+  background-color: #010a01;
+}  
+
+.h2-enh {
+
+  text-transform: uppercase;
+  font-weight: 400;
+  position: relative;
+  animation: mymove 5s infinite;
+  animation-timing-function: linear;
+}
+
+#h2-enh {
+
+  text-transform: uppercase;
+  font-weight: 400;
+  animation-timing-function: linear;
+  
+}
+  
+
+#h2-enh {
+    font-size: 1.8rem;
+    position: relative;
+    animation: mymove 5s infinite;
+    animation-timing-function: linear;
+}
+
+
+
+.h2-enh-2 {
+  font-size: 1.8rem;
+  animation-timing-function: linear;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+
+.container {
+  margin-top: 20vh;
+}
+
+#body-enhancement{
+  background-color: #535353;
+
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 280px;}
+}
+
+.p-enh{
+  color: white;
+}
+
+
+
+
+#section-enh{
+  border: 1px solid #363636;
+  background-color: #363636;
+  width: 70%;
+  margin: 0% auto;
+  float: center;
+
+}
+#enhancements-div{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.e-1{
+  width: 250px;
+  height: 250px;
+  display: inline;
+  margin: 0% auto;
+  float: center;
+
+
+}
+
+.e-2{
+  width: 250px;
+  height: 250px;
+  display: inline;
+  margin: 0% auto;
+  float: center;
+  margin-left: 150px;
+
+
+}
+
+
+.li-enh{
+  color: white;
+}
+
+#legend-enhancements{
+  color: white;
+}
+
+.enh-label{
+  color: white;
+}
+
+
+
+
+
+
+
+/* end of styling for Enhancements */
+/* styling for index */
+#body-index{
+  width: 100%;
+  height: 100%;
+  background-image: url("./images/2091374.jpg");
+  background-size: cover;
+}
+
+#index-section{
+  padding: 30px;
+  border-radius: 10px;
+  width: 60%;
+  height: 50%;
+  background-color: #333;
+  margin: 0% auto;
+  float: center;
+  margin-top: 5%;
+  opacity: 0.9;
+}
+
+.h1-index{
+  color: pink;
+  
+}
+#h2-index{
+  color: pink;
+}
+#ind-div{
+  color: white;
+}
+#aside-index-1{
+  color: white;
+}
+#img-index{
+  width: 200px;
+  margin-bottom:500px;
+}
+
+#img-2{
+  width: 210px;
+  margin-bottom:500px;;
+}
+#img-3{
+  width: 235px;
+  margin-bottom:500px;
+}
+
+
+#footer-index{
+  border-top: 1px solid #363636;
+  background-color:  #363636;
+  opacity: 0.9;
+}
+#p-index {
+  color: white;
+  display: inline;
+  margin: 0;
+  padding-right: 1vw;
+  font-size: 12px;
+}
+
+
+
+/* end of styling for index */
+/*---------------------------
+-----------------------------
+-----------------------------*/
+/* styling for jobs */
+#jobs-about{
+  width: 100%;
+  height: 100%;
+  /*background-color: #5a5959;*/
+  background-image: url("images/2091374.jpg");
+  background-size: cover;
+}
+
+.S1{  
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 5px;
+  width: 40%;
+  max-width: 1200px;
+  background-color: #363636;
+  opacity: 0.9;
+}
+
+.S2{
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 5px;
+  width: 40%; 
+  max-width: 1200px;
+  background-color: #363636;
+  opacity: 0.9;
+}
+
+
+
+.aside1{
+  color: rgb(228, 222, 222);
+}               
+
+.aside2{                                                                    
+  color: rgb(228, 222, 222);
+}
+
+.jobs-h1{
+  color: rgb(200, 169, 204);
+}
+
+.jobs-h2{
+  color:rgb(232, 227, 233);
+}
+
+.ordered-listed{
+  color:  rgb(228, 222, 222);
+}
+.label-for-order-list{
+  color: rgb(228, 222, 222);
+}
+
+
+.unordered-list{
+  color: rgb(228, 222, 222);
+}
+
+.label-skill-undered-listsed{
+  color: rgb(228, 222, 222);
+  font: bold;
+}
+/*--- End of Styling for jobs page ---*/
+/*---------------------------
+-----------------------------
+-----------------------------
+/*--- Styling for About page ---*/
+
+#about{
+  width: 100%;
+  height: 100%;
+  background-color: #5a5959;
+}
+
+
+.dt-name, .dd-name {
+  display: inline;
+  margin: 0;
+  padding-right: 10px;
+  color: white;
+  margin-bottom: 10%;
+}
+
+.unit-name, .unit-names {
+  display: inline;
+  margin: 0;
+  padding-right: 10px;
+  color: white;
+}
+
+.tutors, .tutors {
+  display: inline;
+  margin: 0;
+  padding-right: 10px;
+  color: white;
+}
+
+.coursename, .coursename {
+  display: inline;
+  margin: 0;
+  padding-right: 10px;
+  color: white;
+}
+
+
+
+a {
+  color: rgb(247, 144, 224);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#about_h1{
+  color: white;
+  text-align: center;
+  font-family: arial, sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 100px;
+}
+
+#about_frieldset{
+  width: 80%;
+  margin: 0 auto;
+  padding: 60px;
+  margin-top: 6%;
+  border: #333;
+}
+
+.timetable td, .timetable th  {
+  padding: 5px;
+  height: 0px;
+  width: 200px;
+  text-align: center;
+  border-collapse: collapse;
+  margin-top: 2vh;
+  color: white;
+  border: 1px solid white
+}
+
+.cos60004{
+  background-color: rgb(0, 117, 49);
+
+}
+.cos60004-2{
+  background-color: rgb(25, 121, 145);
+
+}
+.cos60010{
+  background-color: blue;
+}
+.cos60010-2{
+  background-color: rgb(199, 26, 127);
+}
+.cyb70001{
+  background-color: darkkhaki;
+}
+.frieldset_label1{
+  color: white;
+  margin-bottom: 100px;
+}
+.frieldset_label{
+  color: white;
+}
+
+/*--- end of about page styling ---*/
+/*---------------------------
+-----------------------------
+-----------------------------
+/* img styling */
+#LEGO_logo{
+  width: 10%;
+  height: auto;
+  float: right;
+  border: 5px solid #d8d4d4;;
+  padding: 0px 0px 0px 0px;
+  position: absolute;
+  right: 300px;
+  margin-bottom: 10%;
+
+  
+
+}
+/*--- end of img styling ---*/
+/*---------------------------
+-----------------------------
+-----------------------------
+/*--- Styling for apply page ---*/
+.feedback{
+  width: 100%;
+  height: 100%;
+  background-color: #535353;
+}
+
+#gender-index{
+  color: white;
+  
+}
+
+input[type="radio"] {
+  color: white;
+  display: inline-block;
+}
+
+input[type="checkbox"] {
+  color: white;
+  display: inline-block;
+}
+
+
+#div-skills{
+  color: white;
+}
+
+.address-master{
+  color: white;
+  width: 800px;
+}
+
+.info-master{
+  color: white;
+
+}
+
+.product-master{
+  color: white;
+}
+
+
+
+.town-master{
+  color: white;
+  width: 200px;
+}
+
+.postcode-sub label, .postcode-sub input, .postcode-sub select {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.postcode-sub label {
+  width: 10%;
+  color: white;
+}
+
+.postcode-sub input, .postcode-sub select {
+  width: 40%;
+  margin-left: 10px;
+  color: black;
+}
+
+
+#country{
+  font-size: 10px; /* Change the font size */
+  font-family: Arial, sans-serif; /* Change the font family */
+  padding: 10px; /* Add some padding */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 5px; /* Add some border radius */
+  height: 40px;
+  width: 200px;
+ 
+  margin-left: 5px;
+  background-color: #fff; /* Change the background color */
+  color: #333;
+  box-shadow: 1px 1px 1px rgba(245, 238, 238, 0.2); /* Add a box shadow */
+}
+
+#state-master-jobs{
+  color: white;
+  width: 300px  ;
+  padding: 1px 1px 1px 1px;
+}
+.staff-master{
+  color: white;
+}
+
+.h1 {
+  color: rgb(200, 169, 204);
+  font-family: arial, sans-serif;
+  font-size: 36px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 1px;
+  background-image: url("4CD74768C0F79722960FA5035F79697C.jpg");
+  background-size: cover;
+  }
+
+.h2 {
+  color: white;
+  text-align: left;
+
+}
+#p{
+  color: white;
+  text-align: center;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+fieldset{
+  background-color: #363636;
+  width: 900px;
+  margin: auto;
+}
+
+
+legend {
+  background-color: gray;
+  color: white;
+  padding: 5px 10px;
+}
+
+input {
+  margin: 5px;
+}
+
+
+body {
+  font-family: Arial, 
+  Helvetica, sans-serif;
+}
+* {
+    box-sizing: border-box;
+  }
+#fielset-apply-1{
+  border: #04AA6D;
+}
+
+#fielset-apply-2{
+  border: #04AA6D;
+}
+
+/* This is for all the inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  color: rgb(15, 14, 14);
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+
+/* for submit button */
+input[type=submit] {
+  background-color: #f8f1f1;
+  color: rgb(3, 3, 3);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #b7b6bb;
+}
+
+/*background for contact info */
+.container {
+  border-radius: 5px;
+  background-color: #bbb8b8;
+  padding: 20px;
+}
+
+#gender-index {
+  display: inline-block;
+  margin-right: 80px;
+}
+
+.comment-boxs{
+  color: white;
+  height: 100px;
+}
+
+.raido{
+  color: white;
+}
+
+.gender{
+  color: white;
+ 
+}
+
+.html-css{
+  color: white;
+}
+
+.skills {
+  color: white;
+  
+}
+
+.radio{
+  color: white;
+}
+#address{
+  width: 300px;
+  height: 40px;
+  padding: 1%;
+  border-radius: 4px;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+#dob{
+  width: 200px;
+  height: 40px;
+  padding: 1%;
+  border-radius: 4px;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+
+}
+
+#phoneno{
+  width: 500px;
+  height: 40px;
+  padding: 1%;
+  border-radius: 4px;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+#email{
+  width: 500px;
+  height: 40px;
+  padding: 1%;
+  margin-left: 45px;
+  border-radius: 4px;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+#lname{
+  width: 500px;
+  height: 40px;
+  padding: 1%;
+  border-radius: 4px;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+#fname{
+  width: 500px;
+  height: 40px;
+  padding: 1%;
+  border-radius: 4px;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+#postcode{
+  width: 200px;
+  height: 40px;
+  padding: 1%;
+  border-radius: 4px;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+
+
+/* end of styling for apply */
+/*---------------------------
+-----------------------------
+-----------------------------
+/* Styling for Nav bar */
+body{
+	margin: 0;
+	font-family: Arial, Helvetica,  sans-serif;
+	}
+ 
+	.topnav {
+	overflow: hidden;
+  /* this is the color of the nav */
+	background-color: #363636;
+  opacity: 0.9;
+  }
+  #img{
+    float: left;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    width: 150px;
+    height: 50px;
+   
+  }
+	
+	.topnav a {
+	float: right;
+	color: #f2f2f2;
+	text-align: center;
+  display: flex;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 30px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  height: 10px
+
+	}
+	
+	.topnav a:hover {
+	background-color: rgb(238, 197, 197);
+	color: white;
+  
+	}
+
+	.topnav a.active {
+	background-color: #04AA6D;
+	color: white;
+	}
+/* end of stlying for nav bar */
+/*---------------------------
+-----------------------------
+-----------------------------
+/* adding footer style */
+footer {
+    text-align: center;
+    padding-bottom: 2vh;
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid #fff;
+
+}
+
+footer p {
+    color: white;
+    display: inline;
+    margin: 0;
+    padding-right: 1vw;
+    font-size: 12px;
+}
+
+
+
+
+/* styles for screens with a minimum width of 24 inches */
+@media (min-width: 1920px) {
+  #body-enhancement {
+    font-size: 15px;
+    width: 100%;
+   
+   
+  }
+  #body-index {
+    font-size: 14px;
+    width: 100%;
+  
+
+  }
+  #jobs-about {
+    font-size: 12px;
+    width: 100%;
+
+ 
+  }
+  .feedback {
+    font-size: 15px;
+    width: 100%;
+
+ 
+  }
+  #about {
+    font-size: 15px;
+    width: 100%;
+    
+
+  }
+
+}
+/* Styles for 32-inch screens */
+@media (min-width: 2560px) {
+  #body-enhancement {
+    font-size: 18px;
+    width: 100%;
+
+  }
+  #body-index {
+    font-size: 16px;
+    width: 100%;
+ 
+  }
+  #jobs-about {
+    font-size: 14px;
+    width: 100%;
+  
+  }
+  .feedback {
+    font-size: 18px;
+    width: 100%;
+
+  }
+  #about {
+    font-size: 15px;
+    width: 100%;
+    
+  }
+}
+
+
+/* styles for screens with a minimum width of 24 inches */
+@media (min-width: 1080px) {
+  #body-enhancement {
+    font-size: 15px;
+    width: 100%;
+   
+   
+  }
+  #body-index {
+    font-size: 14px;
+    width: 100%;
+  
+
+  }
+  #jobs-about {
+    font-size: 12px;
+    width: 100%;
+
+ 
+  }
+  .feedback {
+    font-size: 15px;
+    width: 100%;
+
+ 
+  }
+  #about {
+    font-size: 15px;
+    width: 100%;
+    
+
+  }
+
+}

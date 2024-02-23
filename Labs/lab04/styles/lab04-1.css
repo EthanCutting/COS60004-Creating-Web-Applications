@@ -1,0 +1,162 @@
+/*
+    filename: Ethan PP Cutting
+    author: Ethan PP Cutting
+    Created: 26/03/2023
+    Last modified: 26/03/2023
+    description: Css file
+*/
+
+aside {
+    width: 30%;
+    border-radius: 14px;
+    border: 4px inset purple;
+    margin: 1em;
+    padding: 1em;
+    background: url("imgaes/fade.jpg") repeat-x top left;
+    float: right;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+
+
+.menu {
+    display: inline-block;
+}
+
+#header{
+    border: 2px solid black;
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color: lightgray;
+   
+}
+
+nav a {
+   text-decoration: none;
+   padding: 0.2em 0.6em;
+   border: 4px solid #ccc;
+}
+
+#nav a:hover{
+   background-color: lightblue;
+}
+
+
+footer{
+    border: 4px double darkgray;
+    clear: both;
+
+}
+
+footer p{
+    display: inline-block;
+    width: 33%;
+}
+footer p:first-child{
+    float: left;
+}
+
+footer p:nth-child(2){
+    text-align: center;
+}
+
+footer p:last-child{
+    float: right;
+    text-align: right;
+
+}
+
+#lists{
+    float: left;
+}
+dt{
+    color: green;
+
+    
+}
+
+dd{
+    display: inline;
+    margin: auto;
+    float: right;
+  
+}
+
+dl{
+    border: 2px solid black;
+    padding: 5%;
+    width: 90%;
+    height:60px;
+  
+}
+#tables{
+    margin: auto;
+    float: right;
+   
+}
+col{
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 5px
+}
+
+table{
+    margin: auto;
+}
+
+#hyperlinks{
+    clear: left;
+    float: left;
+    color: black;
+}
+
+#images{
+    float: right;
+}
+
+figure{
+    border: 2px solid#ccc;
+}
+
+
+#lists, #images, #tables, #hyperlinks{
+    width: 50%;
+    text-align: center;
+}
+
+
+ol, ul, dl{
+    text-align: left;
+}
+
+article{
+    min-width: 30em;
+}
+
+h2{
+    color: green;
+}
+
+th,td{
+border: 1px solid black;
+padding: 1px;
+box-shadow: 10px;
+}
+
+.special{
+    color: orange;
+}
+
+h1{
+    color: purple;
+}
+
+.d1{
+    display: inline-block;
+    margin: 0;
+}
+
+.d2{
+    display: inline-block;
+    margin: 0;
+}
